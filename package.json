@@ -1,0 +1,24 @@
+{
+  "name": "tyservjs",
+  "version": "0.0.1",
+  "description": "nodejs simple frameworkless http server with router, resources and sockets (socket.io)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "tiny",
+    "server",
+    "router",
+    "socket",
+    "server",
+    "nodejs"
+  ],
+  "author": "Constantine Dobrovolskyi",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  }
+}
