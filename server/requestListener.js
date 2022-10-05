@@ -5,6 +5,7 @@ const routes = require('./routes');
 const MIME = {
     '.html': 'text/html',
     '.js': 'text/javascript',
+    '.json': 'application/json',
     '.css': 'text/css',
     '.svg': 'image/svg+xml',
     '.ttf': 'application/x-font-ttf',
@@ -15,6 +16,7 @@ const MIME = {
     '.sfnt': 'application/font-sfnt',
     '.ico': 'image/x-icon',
     '.mp3': 'application/octet-stream',
+    '.png': 'image/png',
 };
 const isAllowed = (filePath, extname, contentType) => {
     const exist = fs.existsSync(filePath);
